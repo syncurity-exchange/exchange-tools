@@ -32,7 +32,7 @@ else
 fi 
 SUBTREE_ORG=$(basename $(dirname $1))
 SUBTREE_REPO=$(basename $1 | cut -d. -f1 )
-EXCHANGE_PREFIX=stackstorm
+EXCHANGE_PREFIX=syncurity
 
 echo 
 echo "Splitting pack from $SUBTREE_ORG/$SUBTREE_REPO to $EXCHANGE_ORG/$EXCHANGE_PREFIX-pack1, $EXCHANGE_ORG/$EXCHANGE_PREFIX-pack2, etc."
